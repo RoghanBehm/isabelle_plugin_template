@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE ACTIONS SYSTEM "actions.dtd">
+<ACTIONS>
+  <ACTION NAME="rename_poc.hello">
+    <CODE>isabelle.jedit.Rename_POC.hello(view);</CODE>
+  </ACTION>
+
+  <ACTION NAME="rename_poc.show_context">
+    <CODE>isabelle.jedit.Rename_POC.show_context(view);</CODE>
+  </ACTION>
+</ACTIONS>
+
