@@ -31,6 +31,8 @@ object Refactor {
           matches.flatMap(_.info)
             .collectFirst { case ("constant", _, Some(id)) => id }
 
+        //
+
         // Find all occurrences of entities matching ID in buffer
         val rangeList: List[Text.Range] = canonical_id.map { target_id =>
           val buffer_range = JEdit_Lib.buffer_range(text_area.getBuffer)

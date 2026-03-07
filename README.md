@@ -11,16 +11,16 @@ CLASS" label in the shortcuts UI.
 - `src/isabelle/jedit/sb_rename.scala`
   Scala code containing action entrypoints (e.g. `Refactor.rename(view)`).
 
-- `src/isabelle/jedit/Hello_Plugin.scala`  
+- `src/isabelle/jedit/Hello_Plugin.scala`
   Optional core plugin class (`extends EditPlugin`). Makes jEdit treat this as a "proper" plugin.
 
-- `actions.xml`  
+- `actions.xml`
   Declares the action IDs and the code that runs when they trigger (calls into Scala methods).
 
-- `Hello.props`  
+- `Hello.props`
   Human-readable labels for actions (shown in menus / *Utilities -> Global Options -> Shortcuts*).
 
-- `plugin.props`  
+- `plugin.props`
   Declares the plugin core class and basic metadata. Required if you want to avoid
   “MISSING PLUGIN CORE CLASS”.
 
